@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main">
+        <!-- <img 
+        srcset="./images/hero_space_black__d2ll5e0lazcm_medium.jpg 615w, ./images/hero_space_black__d2ll5e0lazcm_medium_2x.jpg 1230w"
+        sizes="(max-width: 600px) 615px,1230px"
+        src="./images/hero_space_black__d2ll5e0lazcm_medium_2x.jpg" alt=""> -->
+        <picture>
+            <source media="(max-width: 734px)" srcset="./images/hero_space_black__d2ll5e0lazcm_small.jpg, ./images/hero_space_black__d2ll5e0lazcm_small_2x.jpg 2x">
+            <source media="(max-width: 1068px)" srcset="./images/hero_space_black__d2ll5e0lazcm_medium.jpg, ./images/hero_space_black__d2ll5e0lazcm_medium_2x.jpg 2x">
+            <source media="(min-width: 0px)" srcset="./images/hero_space_black__d2ll5e0lazcm_large.jpg, ./images/hero_space_black__d2ll5e0lazcm_large_2x.jpg 2x">
+            <img src="./images/hero_space_black__d2ll5e0lazcm_large.jpg">
+        </picture>
+    </div>
+</body>
+</html>

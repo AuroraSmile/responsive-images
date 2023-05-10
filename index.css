@@ -1,0 +1,21 @@
+:root {
+  --p-width: 771px;
+  --p-height: 563px;
+}
+img {
+  width: var(--p-width);
+  height: var(--p-height);
+}
+
+@media (max-width: 1068px) {
+  :root {
+    --p-width: 615px;
+    --p-height: 452px;
+  }
+}
+@media (max-width: 734px) {
+  :root {
+    --p-width: 288px;
+    --p-height: 268px;
+  }
+}
